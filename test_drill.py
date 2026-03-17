@@ -32,4 +32,4 @@ def test_compute_revenue():
     result = compute_revenue(quantity, price)
 
     # Assert element-wise multiplication is correct
-    assert result.equals(expected)
+    assert result.equals(expected) 
